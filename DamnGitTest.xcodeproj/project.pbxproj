@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520D6C1C1F33C95400459339 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 520D6C1B1F33C95400459339 /* art.scnassets */; };
+		520D6C1F1F33C99400459339 /* MovementData.swift in Resources */ = {isa = PBXBuildFile; fileRef = 520D6C1E1F33C99400459339 /* MovementData.swift */; };
+		520D6C211F33C9AC00459339 /* BetterViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 520D6C201F33C9AB00459339 /* BetterViewController.swift */; };
 		52248BFE1F33C6790036CF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52248BFD1F33C6790036CF97 /* AppDelegate.swift */; };
 		52248C001F33C6790036CF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52248BFF1F33C6790036CF97 /* ViewController.swift */; };
 		52248C031F33C6790036CF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52248C011F33C6790036CF97 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520D6C1B1F33C95400459339 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		520D6C1E1F33C99400459339 /* MovementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementData.swift; sourceTree = "<group>"; };
+		520D6C201F33C9AB00459339 /* BetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterViewController.swift; sourceTree = "<group>"; };
 		52248BFA1F33C6790036CF97 /* DamnGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DamnGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52248BFD1F33C6790036CF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52248BFF1F33C6790036CF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +60,11 @@
 		52248BFC1F33C6790036CF97 /* DamnGitTest */ = {
 			isa = PBXGroup;
 			children = (
+				520D6C1B1F33C95400459339 /* art.scnassets */,
 				52248BFD1F33C6790036CF97 /* AppDelegate.swift */,
 				52248BFF1F33C6790036CF97 /* ViewController.swift */,
+				520D6C201F33C9AB00459339 /* BetterViewController.swift */,
+				520D6C1E1F33C99400459339 /* MovementData.swift */,
 				52248C011F33C6790036CF97 /* Main.storyboard */,
 				52248C041F33C6790036CF97 /* Assets.xcassets */,
 				52248C061F33C6790036CF97 /* LaunchScreen.storyboard */,
@@ -126,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52248C081F33C6790036CF97 /* LaunchScreen.storyboard in Resources */,
+				520D6C1C1F33C95400459339 /* art.scnassets in Resources */,
 				52248C051F33C6790036CF97 /* Assets.xcassets in Resources */,
+				520D6C1F1F33C99400459339 /* MovementData.swift in Resources */,
+				520D6C211F33C9AC00459339 /* BetterViewController.swift in Resources */,
 				52248C031F33C6790036CF97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -263,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -278,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XV9RE992U8;
 				INFOPLIST_FILE = DamnGitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grouchygirl.DamnGitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XV9RE992U8;
 				INFOPLIST_FILE = DamnGitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grouchygirl.DamnGitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
